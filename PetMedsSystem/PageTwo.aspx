@@ -21,7 +21,7 @@
                 <asp:TextBox ID="TextBox3" CssClass="text-uppercase" runat="server"></asp:TextBox>
                 <br />
                 <br />
-                <asp:Button ID="Button1" CssClass="btn btn-primary text-uppercase" runat="server" Text="Send" />
+                <asp:Button ID="Button1" CssClass="btn btn-primary text-uppercase" runat="server" Text="Place Order" />
             </p>
             <div class="card-footer text-muted border-light text-uppercase">
                 Vetranarian
