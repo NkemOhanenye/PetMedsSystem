@@ -17,7 +17,6 @@
 			height: 100%;
 			width: 100%;
 			position: fixed!important;
-			z-index: 1;
 			overflow: auto;
         }
         .nav-item {
@@ -26,7 +25,7 @@
 
     </style>
 </head>
-<body>
+<body class="bg-dark">
     <form id="form1" runat="server">
         <div>
             <div class="row">
@@ -44,7 +43,7 @@
                     </nav>
                 </div>
                 <div class="col-md-9" style="margin-left:20%;">
-                    <h1 class="text-center" style="color: blue">Master Page</h1>
+                    <h1 class="text-center" style="color: blue">Pet Meds</h1>
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
                 </div>
