@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="card bg-dark text-white border-light" style="width: 18rem;">
+    <div class="card bg-dark text-white border-light text-center" style="width: 18rem;">
         <div class="card-header border-light bg-primary">
             Create a new Perscription
         </div>
@@ -18,7 +18,7 @@
                 <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
                 <br />
                 <br />
-                <asp:Button ID="Button1" class="btn btn-primary text-center" runat="server" Text="Send" />
+                <asp:Button ID="Button1" class="btn btn-primary" runat="server" Text="Send" />
             </p>
             <div class="card-footer text-muted border-light">
                 Vetranarian

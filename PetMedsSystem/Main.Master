@@ -28,25 +28,23 @@
 <body class="bg-dark">
     <form id="form1" runat="server">
         <div>
-            <div class="row">
-                <div class="col-md-2" id="sidebar">
-                    <nav class="nav bg-dark" style="display:block; width:20%;">
-                        <div class="nav-item">
-                            <h2 class="nav-link text-white">Pet Meds</h2>
-                        </div>
-                        <div class="nav-item">
-                            <a class="nav-link" href="Default.aspx" aria-current="page">Default Page</a>
-                        </div>
-                        <div class="nav-item">
-                            <a class="nav-link" href="PageTwo.aspx">Page Two</a>
-                        </div>
-                    </nav>
-                </div>
-                <div class="col-md-9" style="margin-left:20%;">
-                    <h1 class="text-center" style="color: blue">Pet Meds</h1>
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                    </asp:ContentPlaceHolder>
-                </div>
+            <div class="col-md-2" id="sidebar">
+                <nav class="nav bg-dark" style="display:block; width:20%;">
+                    <div class="nav-item">
+                        <h2 class="nav-link text-white">Pet Meds</h2>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="Default.aspx" aria-current="page">Order Page</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="PageTwo.aspx">Replacement Page</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-9" style="margin-left:20%;">
+                <h1 class="text-center" style="color: blue">Pet Meds</h1>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
             </div>
         </div>
     </form>
